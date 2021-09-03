@@ -1,14 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+* Author: Josiah Guzman
+* Just a simple command pattern that has a receiver and supports undoable actions.
+* Date Made: 3/31/2021
+*/
 package ObserverPattern;
 
-/**
- *
- * @author Josiah Guzman
- */
 public interface IObserver {
     public void Update();
 }
